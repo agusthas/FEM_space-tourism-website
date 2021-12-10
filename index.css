@@ -204,3 +204,16 @@ select {
 .fs-600 {
   line-height: 1.1;
 }
+
+.numbered-title {
+  font-size: var(--fs-500);
+  font-family: var(--ff-sans-cond);
+  text-transform: uppercase;
+  letter-spacing: 4.725px;
+}
+
+.numbered-title span {
+  font-weight: 700;
+  margin-right: 0.5em;
+  color: hsl(var(--clr-white) / 0.25);
+}
