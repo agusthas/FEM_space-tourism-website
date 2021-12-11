@@ -143,101 +143,139 @@
 
         <!-- navigation -->
         <div>
-          <nav>
-            <ul class="primary-navigation underline-indicators flex">
-              <li class="active">
-                <a class="uppercase text-white letter-spacing-2" href="#"
-                  ><span>00</span>Active</a
-                >
-              </li>
-              <li>
-                <a class="uppercase text-white letter-spacing-2" href="#"
-                  ><span>01</span>Hovered</a
-                >
-              </li>
-              <li>
-                <a class="uppercase text-white letter-spacing-2" href="#"
-                  ><span>02</span>Idle</a
-                >
-              </li>
-            </ul>
-          </nav>
+          <div
+            style="
+              background-color: hsl(var(--clr-light) / 0.15);
+              display: grid;
+              place-items: center;
+            "
+          >
+            <nav>
+              <ul class="primary-navigation underline-indicators flex">
+                <li class="active">
+                  <a class="uppercase text-white letter-spacing-2" href="#"
+                    ><span>00</span>Active</a
+                  >
+                </li>
+                <li>
+                  <a class="uppercase text-white letter-spacing-2" href="#"
+                    ><span>01</span>Hovered</a
+                  >
+                </li>
+                <li>
+                  <a class="uppercase text-white letter-spacing-2" href="#"
+                    ><span>02</span>Idle</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <p class="text-accent" style="text-align: center; margin-top: 2rem">
+            Different States of Navigation Bar
+          </p>
         </div>
 
-        <div class="flex">
-          <div style="margin-top: 5rem">
+        <div class="flex" style="margin-top: 5rem">
+          <div style="margin-right: 10rem">
             <!-- explore button -->
             <a
               href="#"
               class="large-button uppercase ff-serif fs-600 text-dark bg-white"
               >Explore</a
             >
+            <p class="text-accent" style="text-align: center; margin-top: 2rem">
+              Landing Page Main Button
+            </p>
           </div>
-          <div class="flow" style="margin-bottom: 50vh; --flow-space: 4rem">
+          <div class="flow" style="margin-bottom: 30vh; --flow-space: 5rem">
             <!-- Tabs -->
-            <div class="tab-list underline-indicators flex">
-              <button
-                aria-selected="true"
-                class="
-                  uppercase
-                  ff-sans-cond
-                  fs-400
-                  text-accent
-                  bg-dark
-                  letter-spacing-2
-                "
+            <div>
+              <div class="tab-list underline-indicators flex">
+                <button
+                  aria-selected="true"
+                  class="
+                    uppercase
+                    ff-sans-cond
+                    fs-400
+                    text-accent
+                    bg-dark
+                    letter-spacing-2
+                  "
+                >
+                  Moon
+                </button>
+                <button
+                  aria-selected="false"
+                  class="
+                    uppercase
+                    ff-sans-cond
+                    fs-400
+                    text-accent
+                    bg-dark
+                    letter-spacing-2
+                  "
+                >
+                  Mars
+                </button>
+                <button
+                  aria-selected="false"
+                  class="
+                    uppercase
+                    ff-sans-cond
+                    fs-400
+                    text-accent
+                    bg-dark
+                    letter-spacing-2
+                  "
+                >
+                  Europa
+                </button>
+              </div>
+              <p
+                class="text-accent"
+                style="text-align: center; margin-top: 2rem"
               >
-                Moon
-              </button>
-              <button
-                aria-selected="false"
-                class="
-                  uppercase
-                  ff-sans-cond
-                  fs-400
-                  text-accent
-                  bg-dark
-                  letter-spacing-2
-                "
-              >
-                Mars
-              </button>
-              <button
-                aria-selected="false"
-                class="
-                  uppercase
-                  ff-sans-cond
-                  fs-400
-                  text-accent
-                  bg-dark
-                  letter-spacing-2
-                "
-              >
-                Europa
-              </button>
+                Tabs(Active, Hover, & Idle)
+              </p>
             </div>
 
             <!-- Dots -->
-            <div class="dot-indicators flex">
-              <button aria-selected="true">
-                <span class="sr-only">Slide title</span>
-              </button>
-              <button aria-selected="false">
-                <span class="sr-only">Slide title</span>
-              </button>
-              <button aria-selected="false">
-                <span class="sr-only">Slide title</span>
-              </button>
+            <div>
+              <div class="dot-indicators flex">
+                <button aria-selected="true">
+                  <span class="sr-only">Slide title</span>
+                </button>
+                <button aria-selected="false">
+                  <span class="sr-only">Slide title</span>
+                </button>
+                <button aria-selected="false">
+                  <span class="sr-only">Slide title</span>
+                </button>
+              </div>
+              <p
+                class="text-accent"
+                style="text-align: center; margin-top: 2rem"
+              >
+                Slider 1 States(Active, Hover, & Idle)
+              </p>
             </div>
 
             <!-- Numbers -->
-            <div
-              class="number-indicators flex"
-              style="flex-direction: column; --gap: 2rem"
-            >
-              <button aria-selected="true" class="ff-serif fs-600">1</button>
-              <button aria-selected="false" class="ff-serif fs-600">2</button>
-              <button aria-selected="false" class="ff-serif fs-600">3</button>
+            <div>
+              <div
+                class="number-indicators flex"
+                style="flex-direction: column; --gap: 2rem"
+              >
+                <button aria-selected="true" class="ff-serif fs-600">1</button>
+                <button aria-selected="false" class="ff-serif fs-600">2</button>
+                <button aria-selected="false" class="ff-serif fs-600">3</button>
+              </div>
+              <p
+                class="text-accent"
+                style="text-align: center; margin-top: 2rem"
+              >
+                Slider 2 States(Active, Hover, & Idle)
+              </p>
             </div>
           </div>
         </div>
