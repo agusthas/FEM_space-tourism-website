@@ -228,7 +228,7 @@ select {
 
 .large-button {
   position: relative;
-  display: grid;
+  display: inline-grid;
   z-index: 1;
   border-radius: 50%;
   place-items: center;
